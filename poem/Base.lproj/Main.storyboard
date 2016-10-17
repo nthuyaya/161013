@@ -148,6 +148,9 @@
                                 <state key="normal" title="登金陵鳳凰臺">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="eVh-05-Gpr" kind="show" id="iXr-vZ-WkB"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="btn2" translatesAutoresizingMaskIntoConstraints="NO" id="08C-Oy-YO4">
                                 <frame key="frameInset" minX="42" minY="312" width="291" height="63"/>
@@ -157,9 +160,12 @@
                                 <frame key="frameInset" minX="51" minY="322" width="272" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="蜀 道 難">
+                                <state key="normal" title=" 春 思">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Zph-Id-GY5" kind="show" id="Dtj-AA-Osf"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="btn2" translatesAutoresizingMaskIntoConstraints="NO" id="k0C-FS-jKr">
                                 <frame key="frameInset" minX="42" minY="391" width="291" height="63"/>
@@ -172,6 +178,9 @@
                                 <state key="normal" title="下 江 陵">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="HHY-ta-PvR" kind="show" id="hm8-9b-80w"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="btn2" translatesAutoresizingMaskIntoConstraints="NO" id="2Zk-2e-kdQ">
                                 <frame key="frameInset" minX="42" minY="470" width="291" height="63"/>
@@ -181,9 +190,12 @@
                                 <frame key="frameInset" minX="51" minY="480" width="272" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="春 思">
+                                <state key="normal" title="關 山 月">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="p44-0e-TEC" kind="show" id="uLS-wb-fXi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -191,7 +203,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6XK-im-Hbw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1842.4000000000001" y="791.15442278860576"/>
+            <point key="canvasLocation" x="1818" y="793"/>
         </scene>
         <!--月下獨酌-->
         <scene sceneID="R9b-8k-K9L">
@@ -241,7 +253,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mw1-GY-IeP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2578.4000000000001" y="789.35532233883066"/>
+            <point key="canvasLocation" x="2559" y="793"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qW7-s2-7HF">
@@ -259,7 +271,199 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="40i-WK-zR8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="792.95352323838085"/>
+            <point key="canvasLocation" x="286" y="793"/>
+        </scene>
+        <!--登金陵鳳凰臺-->
+        <scene sceneID="Pz1-F2-9cV">
+            <objects>
+                <viewController title="登金陵鳳凰臺" id="eVh-05-Gpr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jFZ-Un-gSQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="iKW-fR-nrt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uh2-Ce-S4i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg4" translatesAutoresizingMaskIntoConstraints="NO" id="mVv-aK-xeo">
+                                <frame key="frameInset" minY="-31" width="375" height="698"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[ 登金陵鳳凰臺 ]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00K-X6-13S">
+                                <frame key="frameInset" minX="92" minY="196" width="191" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QU3-7e-EHu">
+                                <frame key="frameInset" minX="65" minY="248" width="261" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">鳳凰台上鳳凰游 ，
+
+鳳去台空江自流 。
+
+吳宮花草埋幽徑 ，
+
+晉代衣冠成古丘 。
+
+三山半落青天外，
+
+二水中分白鷺洲。
+
+總為浮雲能蔽日 ，
+
+長安不見使人愁。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nVr-ga-pCK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2557.5999999999999" y="1447.8260869565217"/>
+        </scene>
+        <!-- 春 思-->
+        <scene sceneID="d2j-MC-nDo">
+            <objects>
+                <viewController title=" 春 思" id="Zph-Id-GY5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c9B-zm-tfu"/>
+                        <viewControllerLayoutGuide type="bottom" id="c9Z-LV-b4m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x44-cW-13h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg4" translatesAutoresizingMaskIntoConstraints="NO" id="qoX-7w-pmZ">
+                                <frame key="frameInset" minY="-31" width="375" height="698"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MVD-yT-qnt">
+                                <frame key="frameInset" minX="57" minY="268" width="261" height="336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">燕草如碧絲，秦桑低綠枝 。
+
+當君懷歸日，是妾斷腸時 。
+
+春風不相識，何事入羅幃 ？
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[  春 思  ]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOB-Lk-kKQ">
+                                <frame key="frameInset" minX="126" minY="197" width="106" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L6H-nQ-ZWp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2557.5999999999999" y="2133.2833583208399"/>
+        </scene>
+        <!--下江陵 -->
+        <scene sceneID="4ir-hv-ZvV">
+            <objects>
+                <viewController title="下江陵 " id="HHY-ta-PvR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wqg-54-i4q"/>
+                        <viewControllerLayoutGuide type="bottom" id="UPb-k2-Nk1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ne9-IR-8fY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg4" translatesAutoresizingMaskIntoConstraints="NO" id="8qa-Ho-SZq">
+                                <frame key="frameInset" minY="-31" width="375" height="698"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hw5-if-vvi">
+                                <frame key="frameInset" minX="65" minY="248" width="261" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">朝辭白帝彩雲間 ，
+
+千里江陵一日還 。
+
+兩岸猿聲啼不住 ，
+
+輕舟已過萬重山 。
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[  下 江 陵  ]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wnv-Gv-JuZ">
+                                <frame key="frameInset" minX="113" minY="196" width="191" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mIt-gZ-fhQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2558" y="127"/>
+        </scene>
+        <!--關 山 月-->
+        <scene sceneID="ToW-6n-Clm">
+            <objects>
+                <viewController title="關 山 月" id="p44-0e-TEC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IxX-2i-pm5"/>
+                        <viewControllerLayoutGuide type="bottom" id="KZd-qg-e5c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gPv-Yl-phe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg4" translatesAutoresizingMaskIntoConstraints="NO" id="8zm-Qb-NeW">
+                                <frame key="frameInset" minY="-31" width="375" height="698"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4Ag-ac-PRf">
+                                <frame key="frameInset" minX="57" minY="268" width="261" height="336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">明月出天山，蒼茫雲海間 。
+
+長風幾萬里，吹度玉門關 。
+
+漢下白登道，胡窺青海灣 。
+
+由來征戰地，不見有人還 。
+
+戍客望邊色，思歸多苦顏 。
+
+高樓當此夜，歎息未應閒 。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[  關 山 月 ]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMh-Dk-umP">
+                                <frame key="frameInset" minX="115" minY="195" width="191" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SjY-K2-TP2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2558" y="-527"/>
         </scene>
     </scenes>
     <resources>
